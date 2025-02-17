@@ -9,7 +9,6 @@ d = list_input(n)
 
 def kagami_mochi(d):
     new_array = set(d)
-    print(new_array)
     return len(new_array)
 
 print(kagami_mochi(d))
